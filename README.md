@@ -31,7 +31,6 @@ Non-Blocking: In traditional server-side architectures, if a task is in progress
 ### Client-Side Technologies: Common client-side technologies include HTML, CSS, and JavaScript. HTML is used for structuringweb content, CSS for styling, and JavaScript for adding interactivity and functionality to web pages.
  
 ## Database Client
-
 ### A database client is a software component or library that allows your server-side code to communicate with a database management system (DBMS)
 ### Database Management System (DBMS): A DBMS is software that manages databases, including storing, retrieving, updating, and organizing data. Examples of DBMSs include MySQL, PostgreSQL, MongoDB, and SQLite.
 ### Database Client Libraries: To interact with a DBMS, developers use specific client libraries or drivers for their chosen programming language. These libraries provide functions and methods to connect to the database, execute queries, and retrieve results.
