@@ -138,7 +138,7 @@ The path module abstracts these differences, allowing you to write code that wor
 worrying about the underlying file system differences. 
 */
 
-const path = require("path")
+// const path = require("path")
 
 /* 
 joins multiple path segments into a single path string, taking care of platform-specific path separators 
