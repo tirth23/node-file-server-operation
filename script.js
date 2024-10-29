@@ -1,10 +1,17 @@
+/* Server-side development using the http module in Node.js allows you to create a basic HTTP server to handle incoming requests and 
+send responses. */
+
 const http = require("http");
 
+/* Create the HTTP Server: Inside the callback function, you can handle incoming HTTP requests.
+The req object represents the request, and the res object is used to send the response back to the client */
 const server = http.createServer((req, res) => {
-  // res.setHeader("Content-Type", "text/plain");
-	// res.write(
-	// 	"Plain Text"
-	// );
+	// /*  Set response header */
+	// res.setHeader("Content-Type", "text/plain");
+	// /* Write response content body of an HTTP response should be a string or Buffer, basically 
+  //     in a format that can be transmitted over the network.*/
+	// res.write("Plain Text");
+	// /* End the response */
 	// res.end();
 
 	// res.setHeader("Content-Type", "text/html");
@@ -25,8 +32,12 @@ const server = http.createServer((req, res) => {
 	res.end();
 });
 
+/* specify the port and host (usually 'localhost' for development) on which your server will listen for incoming requests */
 const port = 3000;
 const host = "localhost";
+
+/* start the server by calling the server.listen() method. This will start listening for incoming HTTP requests 
+on the specified port and host. */
 server.listen(port, host, () => {
 	console.log(`Server is running on http://${host}:${port}`);
 });

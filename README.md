@@ -38,4 +38,18 @@ Non-Blocking: In traditional server-side architectures, if a task is in progress
 ### ODM: Models data using schemas and documents.Example of ODM (Mongoose for MongoDB)
 ### Data Access: Server-side code uses database clients to perform CRUD operations (Create, Read, Update, Delete) on data stored in databases. This includes querying data, inserting new records, updating existing records, and deleting records.
 
-###
+## Port Number
+###  In the context of computer networking, a port number is a way to identify a specific process or service within a device that uses the Internet Protocol (IP).
+### Think of ports as a mechanism for multitasking. While an IP address identifies a machine, many different applications and services run on that machine at once. Each of these services needs a way to receive the appropriate data packets without confusion. Ports allow a single machine with one IP address to efficiently manage multiple services simultaneously. By assigning different services to different ports, a computer can easily determine which application should handle incoming data.
+### Port numbers can range from 0 to 65535
+### Well-Known Ports: 0-1023, reserved for system and standard services.
+### Registered Ports: 1024-49151, typically used for user applications.
+### Dynamic/Private Ports: 49152-65535, used for dynamic purposes.
+
+## Nodemon
+### Nodemon is a tool that helps you develop Node.js applications by automatically restarting the Node.js process whenever changes are detected in your project's files. It's particularly useful during development because it eliminates the need to manually stop and restart your Node.js application every time you make code changes.
+```
+npm install -g nodemon
+
+nodemon your-app.js
+```
