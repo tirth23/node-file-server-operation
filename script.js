@@ -42,4 +42,3 @@ server.listen(port, host, () => {
 	console.log(`Server is running on http://${host}:${port}`);
 });
 
-// nodemon - watch for changes in your node.js application and automatically restart the server
